@@ -1,0 +1,1 @@
+nvcc jacobi_cuda.cu && ./a.out

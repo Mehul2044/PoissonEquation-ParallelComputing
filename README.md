@@ -15,5 +15,13 @@ The libraries we used to parallelize the algorithm are:
   - MPI
   - CUDA
   
-## Results
-Results are shown along in the folder along with code in a `.txt` file.
+
+## Installation Steps
+1. Please ensure that your system has a gcc compiler.
+2. Please ensure that you have a multi-core CPU and you have MPI installed in you system.
+3. Please esnure you have a CUDA enabled GPU and you have CUDA library installed in the system.
+
+## Demo Scripts
+You can run the program from the directory, just run the `run.sh` program in each directory, i.e, `Sequential`, `ParallelMPI`, and `CUDA`.
+You can change the data size by changing the input file, first line, which indicates the grid size, i.e, m * n.
+You can modify the number of processes used in ``run.sh` file while running Parallel MPI code to the number of logical cores in your system.
